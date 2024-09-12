@@ -1,0 +1,444 @@
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Drinks Table</h2>
+
+<table>
+  <tr>
+    <th>Drinks</th>
+  </tr>
+  <tr>
+    <td>Coffee</td>
+  </tr>
+  <tr>
+    <td>Tea</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  border: 1px solid black;
+  width: 250px;
+  height: 150px;
+}
+.inner-container {
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+.left {
+  width: 60%;
+  height: 100%;
+  border: 1px solid black;
+}
+.right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  border: 1px solid black;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="inner-container">
+    <div class="left">
+      Programming language
+    </div>
+    <div class="right">
+      <div class="box">
+        Java
+      </div>
+      <div class="box">
+        Rube
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 5px solid black;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color:bisque;
+}
+</style>
+</head>
+<body>
+
+<h2>Tables in HTML</h2>
+
+<table>
+  <tr>
+    <th>First Name</th>
+    <th>Job role</th>
+  </tr>
+  <tr>
+    <td>Saleem</td>
+    <td>Product owner</td>
+  </tr>
+  <tr>
+    <td>Waleed</td>
+    <td>Business Analyst</td>
+  </tr>
+  <tr>
+    <td>Ahmad</td>
+    <td>Business analysis</td>
+  </tr>
+</table>
+
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+<html></html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>First Name</th>
+    <th>Job role</th>
+  </tr>
+  <tr>
+    <td>Saleem</td>
+    <td>senior</td>
+  </tr>
+  <tr>
+    <td>Khaled</td>
+    <td>.net Developer</td>
+  </tr>
+  <tr>
+    <td>Mohammad</td>
+    <td>senior</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Blood Sugar Levels</h2>
+
+<table>
+  <tr>
+    <th>State of Health</th>
+    <th>Fasting Value</th>
+    <th>After Eating</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Fasting Value</td>
+    <td>Minimum</td>
+    <td>Maximum</td>
+  </tr>
+  <tr>
+    <td>2 hours after eating</td>
+  </tr>
+  <tr>
+    <td>Healthy</td>
+    <td>70</td>
+    <td>100</td>
+    <td>Less than 140</td>
+  </tr>
+  <tr>
+    <td>Pre-Diabetes</td>
+    <td>101</td>
+    <td>126</td>
+    <td>140 to 200</td>
+  </tr>
+  <tr>
+    <td>Diabetes</td>
+    <td>More than 126</td>
+    <td>N/A</td>
+    <td>More than 200</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td rowspan="8"></td>
+    <td>13</td>
+    <td rowspan="6"></td>
+    <td rowspan="8">10</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td rowspan="5"></td>
+    <td rowspan="2">19</td>
+  </tr>
+  <tr>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td rowspan="7"></td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>33</td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td rowspan="3">34</td>
+    <td>38</td>
+  </tr>
+  <tr>
+    <td>46</td>
+    <td>48</td>
+  </tr>
+  <tr>
+    <td>51</td>
+    <td>53</td>
+    <td>48</td>
+    <td>55</td>
+  </tr>
+  <tr>
+    <td>71</td>
+    <td>52</td>
+    <td rowspan="5"></td>
+    <td>54</td>
+    <td>75</td>
+  </tr>
+  <tr>
+    <td>76</td>
+    <td rowspan="5"></td>
+    <td rowspan="4"></td>
+    <td>80</td>
+  </tr>
+  <tr>
+    <td>81</td>
+    <td>83</td>
+    <td>85</td>
+  </tr>
+  <tr>
+    <td>86</td>
+    <td>88</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>89</td>
+  </tr>
+</table>
+
+</body>
+</html>
